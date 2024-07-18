@@ -2,112 +2,146 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    
     <link rel="stylesheet" href="estilos.css">
-
+    
+    <title>Portfolio</title>
 </head>
-
-<style> 
-
-</style>
-
-<body>
+<section Id="inicio">
+    <div class = "contenido">
         <header>
-            <h3> Facundo </h3>
+            <div class="contenido-header">
+                <h1>=)</h1>
+                <nav id="nav" class="">
+                    <ul id="link">
+                        <li><a href="#inicio" class="seleccionado"onclick="seleccionar(this)">INICIO</a></li>
+                        <li><a href="#Presentacion"onclick="seleccionar(this)">PRESENTACION</a></li>
+                        <li><a href="#Aptitudes"onclick="seleccionar(this)">APTITUDES</a></li>
+                        <li><a href="#Proyectos"onclick="seleccionar(this)">PROYECTOS</a></li>
+                    </ul>
+                </nav>
+                
+                <div>
+                    <i> FP </i>
+                </div>
+            </div>
         </header>
 
-        <section class="uno">
-            <div class="div-central">
-                <div class="div-cara">
-                    <img class="cara" src="https://avatars.githubusercontent.com/u/167261035?s=400&u=b512855dbb160546a9b420749728ab723ed58041&v=4" alt="Facundo Pino">            
-                </div>
-                <div class="div-presentacion">
-                    <div>    
-                        <h1>Hola!</h1>
-                        <p class="presentacion">
-                        Como estas? Soy Facundo Pino, tengo 20 años y estoy buscando profesionalizarme en el ambito tecnologico laboral.
-                        Soy responsable, me gusta trabajar en equipo y aprendo rapido.                       
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="dos">
-            <h2>Sobre mí</h2>
-            <p>
-                Soy un estudiante avanzado de la tecnicatura universitaria en programación (UTN). 
-                Curso la carrera desde mediados de 2022, estoy en mi segundo año de carrera y en hasta hoy aprendi varios lenguajes de programación y tecnologicas,
-                conceptos de sistemas operativos y manejo de pack office. Además de eso estudio ingles desde el 2022 y hice un curso sobre conceptos de la ciberseguridad.           
-            </p>
-            <h2>Aptitudes</h2>
-            <p>
-                Estas son algunas de las tecnologías de las que tengo conocimientos.
-            </p>
-            <div class="aptitudes">
-                <div class="tech-list">
-                    <img width="220px" src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C">
-                    <img width="230px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" alt="C++">
-                    <img width="230px" src="https://cdn.worldvectorlogo.com/logos/c--4.svg" alt="C#">
-                    <img width="230px" src="https://www.pontia.tech/wp-content/uploads/2023/06/Imagen1.png" alt="SQL">
-                </div>
-                <div class="tech-list">
-                    <img width="230px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/1024px-Microsoft_.NET_logo.svg.png" alt=".Net">
-                    <img width="230px" src="https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png" alt="HTML">
-                    <img width="250px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/946px-Javascript_badge.svg.png" alt="JavaScript">
-                    <img width="230px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/250px-CSS3_logo_and_wordmark.svg.png" alt="CSS">
-                </div>
-            </div>
-        </section>
-        <section class="tres">
-            <div>
-                <h2>Mis Proyectos</h2>
-            </div>
-            <div>
-                <h3>En mi repositorio de GitHub encontraran todo.</h3>
-            </div>
-            <div class="proyectos">
-                <div class="card">
-                    <h3>Gestion de comercio</h3>
-                    <p>
-                        Puede administrar articulos: agregar, modificar, eliminar, listar, detallar, etc.
-                        Use SQL, C# y .Net, en visual studio y azure.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Portfolio</h3>
-                    <p>
-                        Este portfolio, realizado con HTML, CSS y JavaScript.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <h2>Contactame</h2>
-                <div class="contacto">
-                    <a href="https://www.linkedin.com/in/facundopino/" target="_blank">
-                        <img width="100px" src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" class="red-social" alt="">
-                    </a>
-                    <hr>
-                    <a>
-                        <img width="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png" class="red-social" alt="">
-                    </a>
-                    <hr>
-                    <a href="https://github.com/FacundoPino" target="_blank">
-                        <img width="100px" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="red-social" alt="">
-                    </a>
-                </div>
-                <div>
-                    <p>
-                        facunahuelp@gmail.com
-                    </p>
-                </div>
-        </footer>
-</body>
-    
+        <div class="presentacion">
+            <h2>Bienvenidos!</h2>
+            <p class="descripcion"> Soy Facundo Pino y este es mi portfolio</p>
+        </div>
 
+    </div>
+</section>
+
+
+<section class="uno" Id="Presentacion">
+    <div class="div-central">
+        <div class="div-cara">
+            <img class="cara" src="https://avatars.githubusercontent.com/u/167261035?s=400&u=b512855dbb160546a9b420749728ab723ed58041&v=4" alt="Facundo Pino">            
+        </div>
+        <div class="div-presentacion">
+            <div>    
+                <h1>Hola!</h1>
+                <p class="presentacion">
+                    Como estas? Soy Facundo Pino, tengo 20 años y estoy buscando profesionalizarme en el ambito tecnologico laboral.
+                    Soy responsable, me gusta trabajar en equipo y aprendo rapido.                       
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="div-cv">
+        <a href="file:///C:/Users/Usuario/Documents/Curriculum/CV_PinoFacundo.pdf">Mirar CV</a>
+    </div>
+</section>
+
+<section class="dos" Id="Aptitudes">
+    <h2>Sobre mí</h2>
+    <p>
+        Soy un estudiante avanzado de la tecnicatura universitaria en programación (UTN). 
+        Estoy en mi segundo año de carrera y aprendi varios lenguajes de programación y tecnologicas,
+        conceptos de sistemas operativos y manejo de pack office. Además estudio ingles desde el 2022 y hice un curso sobre conceptos de la ciberseguridad.           
+    </p>
+    <h2>Aptitudes</h2>
+    <p>
+        Estas son algunas de las tecnologías de las que tengo conocimientos.
+    </p>
+    <div class="aptitudes">
+        <div class="tech-list">
+            <img width="220px" src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C">
+            <img width="230px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" alt="C++">
+            <img width="230px" src="https://cdn.worldvectorlogo.com/logos/c--4.svg" alt="C#">
+            <img width="230px" src="https://www.pontia.tech/wp-content/uploads/2023/06/Imagen1.png" alt="SQL">
+            <img width="230px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/1024px-Microsoft_.NET_logo.svg.png" alt=".Net">
+            <img width="230px" src="https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png" alt="HTML">
+            <img width="250px" src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png" alt="JavaScript">
+            <img width="230px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/250px-CSS3_logo_and_wordmark.svg.png" alt="CSS">
+        </div>
+    </div>
+</section>
+
+<section class="tres" Id="Proyectos">
+    <div>
+        <h2>Mis Proyectos</h2>
+    </div>
+    <div>
+        <h3>En mi repositorio de GitHub encontraran todo.</h3>
+    </div>
+    <div class="proyectos">
+        <div class="card">
+            <h3>Portfolio</h3>
+            <p>
+                Este portfolio, realizado con HTML, CSS y JavaScript.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Gestion de Articulos</h3>
+            <p>
+                Puede administrar articulos: agregar, modificar, eliminar, listar, detallar, etc.
+                Use SQL, C# y .Net, en visual studio y azure.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Carrito de compras</h3>
+            <p>
+                Es un proyecto web. Carga una lista de productos en el home, muestra el detalle de los productos y se agrega al carrito.
+                Una vez agregado se puede manipular la cantidad de el producto(Aumentar, disminuir o eliminar) y pagar.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Gestion de Restaurant</h3>
+            <p>
+                Administra un restaurant desde adentro. Abre y cierra mesas, Carga y cierra pedidos y descuenta stock. Administra (Modifica, agrega y elimina) los insumos, 
+                también administra usuarios (agregar, modificar, inactivar y activar). Puede ver reportes sobre sus meseros y mesas filtrados por año, mes y el dia.
+                Cuenta con un login. Una vez ingreso cuenta con permisos que lo separa segun el que ingrese(Puede ser empleado o gerente).
+                Use C#, ASP.Net, TSQL, HTML, CSS y JavaScript
+            </p>
+        </div>
+    </div>
+</section>
 <footer>
-
+    <h2>Contactame</h2>
+    <div class="contacto">
+        <a href="https://www.linkedin.com/in/facundopino/" target="_blank">
+            <img width="100px" src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" class="red-social" alt="">
+        </a>
+        <hr class="separator">
+        <a href="mailto:facunahuelp@gmail.com" target="_blank">
+            <img width="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png" class="red-social" alt="">
+        </a>
+        <hr class="separator">
+        <a href="https://github.com/FacundoPino" target="_blank">
+            <img width="100px" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="red-social" alt="">
+        </a>
+    </div>
 </footer>
+<body>
+
+</body>
+
 </html>
